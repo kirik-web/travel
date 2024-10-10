@@ -1,0 +1,293 @@
+@import url('foonts.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+:root {
+    --DM700: 'DM700';
+    --DM600: 'DM600';
+    --DM500: 'DM500';
+    --DM400: 'DM400';
+}
+
+.header {
+    background: url("./img/img-1.png") no-repeat center /cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__nav-btn{
+cursor: pointer;
+}
+
+
+.header__nav-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__nav-title {
+    font-family: var(--DM600);
+    font-size: 36px;
+    color: #FFFFFF;
+
+}
+
+
+.header__nav-link {
+    font-family: var(--DM600);
+    color: #FFFFFF;
+
+}
+
+
+
+.header__nav-btn {
+    padding: 16px 47px;
+    background: #FFC814;
+    color: black;
+    border-radius: 4px;
+    border: none;
+    font-family: var(--DM600);
+}
+
+.header__nav {
+    padding: 17px 0;
+}
+
+
+.header__nav-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__content {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.header__content-info {
+    width: 563px;
+}
+
+.header__content-title {
+    font-family: var(--DM700);
+    font-size: 64px;
+    color: #FFFFFF;
+    line-height: 76px;
+    margin-bottom: 17px;
+}
+
+.header__content-text {
+    font-family: var(--DM400);
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 37px;
+
+}
+
+.header__content-btn {
+    padding: 16px 18px;
+    background: #FFC814;
+    color: black;
+    border-radius: 4px;
+    border: none;
+    font-family: var(--DM600);
+   cursor: pointer;
+}
+
+.header__content-btn:last-of-type{
+    background: #FFFDFD;
+
+}
+
+.main{
+    position: relative;
+}
+
+.header__content-btns{
+    gap: 20px;
+    display: flex;
+}
+
+
+.main__content-holde{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main__content-hol{
+    padding: 8px 30px 8px 10px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background: #FFFDFD;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+
+.header__content-span{
+    font-family: var(--DM600);
+    color: #1F3347;
+
+}
+
+.main__ticket-btn{
+    padding: 16px 40px;
+    font-family: var(--DM700);
+    color: black;
+    background: #FFC814;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;  
+    box-shadow: 0px 6px 24px 0px #FFC81466;
+  
+}
+
+
+.main__content-hol:hover{
+    background: #FFC814;
+}
+
+.main__content-tickets{
+    padding: 40px 30px;
+    display: flex;
+    align-items: center;
+    gap: 54px;
+    box-shadow: 0px 6px 24px 0px #E4E2EE;
+    background: #FFFFFF;
+
+}
+
+.main__ticket-title{
+    font-family: var(--DM600);
+    color: #1F3347;
+    margin-bottom: 10px;
+    font-size: 16px;
+    
+}
+
+.main__content-rest{
+    transform: translateY(-40%);
+   
+
+}
+
+.main__content-inp{
+    padding: 20px 0 20px 10px;
+    border: none;
+    box-shadow: 0px 6px 24px 0px #E4E2EE;
+
+}
+
+.main__ticket-btns{
+    padding: 30px 0 0 0 ;
+}
+
+.main__content-img{
+    width: 1160px;
+    z-index: -1;
+    position: absolute;
+    top: 80%;
+}
+
+
+.main__content-treval{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+    gap: 100px;
+}
+
+.main__treval-img{
+    margin-bottom: 10px;
+}
+
+.main__treval-title{
+    font-family: var(--DM700);
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 29px;
+}
+
+.main__treval-text{
+    font-family: var(--DM600);
+    color: #9DA1B4;
+    margin-bottom: 19px;
+}
+
+.main__treval-texT{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+i{
+    color: #9DA1B4;
+    margin-bottom: 10px;
+
+}
+
+.main__treval-grade{
+    display: flex;
+    align-items: center;
+    gap: 95px;
+}
+
+.main__grade-span{
+    color: #FFC814;
+font-family: var(--DM700);
+font-size: 36px;
+margin-bottom: 7px;
+
+}
+
+.main__grade-text{
+    color: #9DA1B4;
+     font-family: var(--DM500);
+     margin-bottom: 50px;
+}
+
+
+.main__treval-btn{
+    padding: 18px 39px;
+    background: #FFC814;
+    color: #1F3347;
+    border-radius: 4px;
+    border: none;
+    font-family: var(--DM700);
+    cursor: pointer;
+}
+
+.palma{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+   
+}

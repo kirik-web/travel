@@ -1,0 +1,20 @@
+@font-face{
+    font-family: 'DM700';
+    src: url('fonts/DMSans_24pt-Bold.ttf');
+}
+
+@font-face{
+    font-family: 'DM600';
+    src: url('fonts/DMSans_36pt-SemiBold.ttf');
+
+}
+
+@font-face{
+    font-family: 'DM500';
+    src: url('fonts/DMSans-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'DM400';
+    src: url('fonts/DMSans-Medium.ttf');
+}
